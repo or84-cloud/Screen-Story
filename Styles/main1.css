@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Georgia, serif;
+    font-family: Georgia, sans-serif;
     background-color: #FDFBF7;
     color: #1A1A1A;
     line-height: 1.7;
@@ -33,7 +33,7 @@ header {
 }
 
 .site-tagline {
-    font-size: 0.9rem;
+    font-size: 0.10rem;
     color: #4A4A4A;
     font-style: italic;
 }
@@ -133,7 +133,7 @@ h1 {
 .article-content {
     background-color: #FFFFFF;
     padding: 2.5rem;
-    border: 1px solid #D4C5B9;
+    border: 1px solid #031044;
 }
 
 .article-content p {
@@ -150,7 +150,9 @@ h1 {
 }
 
 .article-content blockquote {
-    border-left: 3px solid #8B4513;
+    border-left: 3px solid #051B70;
+    font-size: 1.3rem;
+    font-family: 'italiana', sans-serif;
     padding-left: 1.5rem;
     margin: 2rem 0;
     color: #4A4A4A;
@@ -161,12 +163,13 @@ h1 {
 .pull-quote {
     font-size: 1.3rem;
     font-style: italic;
-    color: #8B4513;
+    font-family: 'italiana', sans-serif;
+    color: #051B70;
     text-align: center;
     margin: 2.5rem 0;
     padding: 1.5rem;
-    border-top: 1px solid #D4C5B9;
-    border-bottom: 1px solid #D4C5B9;
+    border-top: 1px solid #031044;
+    border-bottom: 1px solid #031044;
 }
 
 /* Image with Caption */
@@ -182,7 +185,7 @@ h1 {
 
 .image-caption {
     font-size: 0.85rem;
-    color: #6B6B6B;
+    color: #051B70;
     font-style: italic;
     margin-top: 0.5rem;
     text-align: center;
@@ -206,7 +209,7 @@ h1 {
     font-family: 'Playfair Display', Georgia, serif;
     font-size: 1.8rem;
     margin-bottom: 1.5rem;
-    border-bottom: 2px solid #D4C5B9;
+    border-bottom: 2px solid #031044;
     padding-bottom: 0.5rem;
 }
 
@@ -218,7 +221,7 @@ h1 {
 
 .related-card {
     background-color: #FFFFFF;
-    border: 1px solid #D4C5B9;
+    border: 1px solid #031044;
     padding: 1.5rem;
     text-decoration: none;
     color: inherit;
@@ -230,7 +233,7 @@ h1 {
 }
 
 .related-card h3 {
-    font-family: 'Playfair Display', Georgia, serif;
+    font-family: 'Playfair Display', Georgia, sans-serif;
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
 }
@@ -250,7 +253,7 @@ footer {
 }
 
 footer a {
-    color: #D4A574;
+    color: #6381F8;
     text-decoration: none;
 }
 
