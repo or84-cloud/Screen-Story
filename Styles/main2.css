@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    font-family: 'Bodoni Moda', cursive;
+    font-size: 24px;
+}
+
+body {
+    font-family: Georgia, serif;
+    background-color: #FDFBF7;
+    color: #1A1A1A;
+    line-height: 1.7;
+}
+
+/* Header Styles */
+header {
+    border-bottom: 3px solid #1A1A1A;
+    padding: 2rem 5%;
+    background-color: #FFFFFF;
+}
+
+.site-title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    letter-spacing: -0.5px;
+}
+
+.site-tagline {
+    font-size: 0.9rem;
+    color: #4A4A4A;
+    font-style: italic;
+}
+
+/* Navigation */
+nav {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #D4C5B9;
+    padding: 1rem 5%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: #1A1A1A;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #8B4513;
+}
+
+/* Contact Container */
+.contact-container {
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 0 5%;
+}
+
+/* Page Header */
+.page-header {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.page-header h1 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.page-header p {
+    font-size: 1.1rem;
+    color: #4A4A4A;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Two Column Layout */
+.contact-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    margin-bottom: 3rem;
+}
+
+/* Contact Info Section */
+.contact-info {
+    background-color: #FFFFFF;
+    border: 1px solid #D4C5B9;
+    padding: 2rem;
+}
+
+.contact-info h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #8B4513;
+}
+
+.info-item {
+    margin-bottom: 2rem;
+}
+
+.info-item h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.info-item p {
+    color: #4A4A4A;
+    font-size: 0.95rem;
+}
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.social-links a {
+    color: #8B4513;
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #D4C5B9;
+    transition: background-color 0.3s;
+}
+
+.social-links a:hover {
+    background-color: #FDFBF7;
+}
+
+/* Contact Form */
+.contact-form-section {
+    background-color: #FFFFFF;
+    border: 1px solid #D4C5B9;
+    padding: 2rem;
+}
+
+.contact-form-section h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #8B4513;
+}
+
+/* Form Styles */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #D4C5B9;
+    background-color: #FDFBF7;
+    font-family: Georgia, serif;
+    font-size: 0.95rem;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #8B4513;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+select {
+    cursor: pointer;
+}
+
+/* Submit Button */
+.submit-btn {
+    background-color: #8B4513;
+    color: #FFFFFF;
+    padding: 0.875rem 2rem;
+    border: none;
+    font-family: Georgia, serif;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+.submit-btn:hover {
+    background-color: #6B3410;
+}
+
+/* Response Time Notice */
+.response-notice {
+    background-color: #FFF8E1;
+    border-left: 3px solid #8B4513;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-size: 0.85rem;
+    color: #4A4A4A;
+}
+
+/* Footer */
+footer {
+    background-color: #1A1A1A;
+    color: #E8E6E3;
+    padding: 2rem 5%;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+footer a {
+    color: #D4A574;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-links {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .page-header h1 {
+        font-size: 2rem;
+    }
+
+    nav ul {
+        gap: 1rem;
+    }
+
+    .social-links {
+        flex-direction: column;
+    }
+
+    .social-links a {
+        text-align: center;
+    }
+}
