@@ -1,97 +1,270 @@
-/* Header CSS */
-
-
-*{
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-h2{
+
+body {
+    font-family: Georgia, serif;
+    background-color: #FDFBF7;
+    color: #1A1A1A;
+    line-height: 1.7;
+}
+
+/* Navbar*/
+.navbar-brand {
     font-family: 'Bodoni Moda', cursive;
     font-size: 24px;
-    font-style: normal;
-    font-variant: normal;
+}
+
+/* Header*/
+header {
+    border-bottom: 3px solid #1A1A1A;
+    padding: 2rem 5%;
+    background-color: #FFFFFF;
+}
+
+.site-title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 2.5rem;
     font-weight: 700;
-    line-height: 26px;
-}
-.logo{
-    height: 80px;
-    width: 80px;
-}
-.navbar-brand{
-    font-family: 'Bodoni Moda', cursive;
-    font-size: 24px;
+    margin-bottom: 0.5rem;
+    letter-spacing: -0.5px;
 }
 
-/* Navbar CSS */
-
-/* Carousel CSS */
-.carousel-item{
-
-    .carousel-item img{
-        width: 100%;
-        height: 100%;
-    }
-
+.site-tagline {
+    font-size: 0.9rem;
+    color: #4A4A4A;
+    font-style: italic;
 }
 
-/* img CSS*/
+/* Navigation */
+nav {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #031044;
+    padding: 1rem 5%;
+}
 
-/* Card(s) CSS */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
 
-/* Pages CSS*/
-.article-container{
+nav a {
+    color: #1A1A1A;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #07259C;
+}
+
+/* Article */
+.article-container {
     max-width: 800px;
     margin: 3rem auto;
     padding: 0 5%;
 }
-.article-header{
+
+/* Article Header */
+.article-header {
     margin-bottom: 2rem;
 }
-.category{
-    color: #8b4513;
-    font-size: 0.75rem ;
+
+.category {
+    color: #07259C;
+    font-size: 0.75rem;
     text-transform: uppercase;
     letter-spacing: 1.5px;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
-    margin-bottom: -1rem;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    margin-bottom: 1rem;
     display: block;
 }
-h1{
-    font-family: times new roman, sans-serif;
+
+h1 {
+    font-family: 'Playfair Display', Georgia, serif;
     font-size: 2.5rem;
+    line-height: 1.2;
     margin-bottom: 1rem;
-    display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
+    font-weight: 700;
 }
-.article-meta{
-    color: #6b6b6b;
+
+.article-meta {
+    color: #6B6B6B;
     font-size: 0.9rem;
     margin-bottom: 1.5rem;
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
 }
-.card1{
 
-    .card-title{
-
-    }
-}   .
-
-
-
-
-
-/*Contact us Page*/
-
-/*Footer CSS */
-footer{
-    background-color: #122C4F;
-    width: 100%;
-    height: 4rem;
-    color: white;
-    text-align: center;
-
+.rating {
+    color: #F5DD27;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
 }
-/* Media Queries*/
+
+/* Featured Image */
+.featured-image {
+    width: 100%;
+    height: 400px;
+    background-color: #D4C5B9;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6B6B6B;
+    font-style: italic;
+}
+
+.featured-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Article Content */
+.article-content {
+    background-color: #FFFFFF;
+    padding: 2.5rem;
+    border: 1px solid #031044;
+}
+
+.article-content p {
+    margin-bottom: 1.5rem;
+    font-size: 1.05rem;
+}
+
+.article-content h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.article-content blockquote {
+    border-left: 3px solid #051B70;
+    font-size: 1.3rem;
+    font-family: 'Italiana', sans-serif;
+    padding-left: 1.5rem;
+    margin: 2rem 0;
+    color: #4A4A4A;
+    font-style: italic;
+}
+
+/* Pull Quote */
+.pull-quote {
+    font-size: 1.3rem;
+    font-style: italic;
+    font-family: 'Italiana', sans-serif;
+    color: #051B70;
+    text-align: center;
+    margin: 2.5rem 0;
+    padding: 1.5rem;
+    border-top: 1px solid #031044;
+    border-bottom: 1px solid #031044;
+}
+
+/* Image with Caption */
+.content-image {
+    margin: 2rem 0;
+}
+
+.content-image img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #031044;
+}
+
+.image-caption {
+    font-size: 0.85rem;
+    color: #051B70;
+    font-style: italic;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+/* Floating Image */
+.float-right {
+    float: right;
+    width: 300px;
+    margin: 0 0 1rem 1.5rem;
+}
+
+/* Related Articles */
+.related-articles {
+    max-width: 800px;
+    margin: 3rem auto;
+    padding: 0 5%;
+}
+
+.related-articles h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid #031044;
+    padding-bottom: 0.5rem;
+}
+
+.related-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.related-card {
+    background-color: #FFFFFF;
+    border: 1px solid #031044;
+    padding: 1.5rem;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s;
+}
+
+.related-card:hover {
+    transform: translateY(-5px);
+}
+
+.related-card h3 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.related-card p {
+    font-size: 0.9rem;
+    color: #4A4A4A;
+}
+/* Footer */
+footer {
+    background-color: #1A1A1A;
+    color: #E8E6E3;
+    padding: 2rem 5%;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+footer a {
+    color: #6381F8;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-links {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
