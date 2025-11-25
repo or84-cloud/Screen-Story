@@ -1,32 +1,56 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
+/* Body*/
 body {
-    font-family: Georgia, serif;
+    font-family: Georgia, sans-serif;
     background-color: #FDFBF7;
     color: #1A1A1A;
     line-height: 1.7;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+}
+/*Carousel*/
+.carousel{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    border-bottom: #1A1A1A 2px solid;
+    justify-content: center;
+
+
+}
+.carousel-caption{
+    text-align: left;
+
+
 }
 
-/* Navbar*/
+
+/* Navbar */
 .navbar-brand {
     font-family: 'Bodoni Moda', cursive;
     font-size: 24px;
 }
 
-/* Header*/
+/* Header Styles */
 header {
     border-bottom: 3px solid #1A1A1A;
     padding: 2rem 5%;
     background-color: #FFFFFF;
 }
 
+.header-link {
+    text-decoration: none;
+    color: inherit;
+}
+
 .site-title {
-    font-family: 'Playfair Display', Georgia, serif;
+    font-family: 'Playfair Display', Georgia, sans-serif;
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 0.5rem;
@@ -65,7 +89,39 @@ nav a:hover {
     color: #07259C;
 }
 
-/* Article */
+/* Main Wrapper */
+.main-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+/* Featured Article */
+.featured-article {
+    background-color: #FFFFFF;
+    border: 1px solid #031044;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+
+.featured-title {
+    font-family: 'bodini + moda', sans-serif;
+    font-size: 2rem;
+    margin: 0.5rem 0 1rem 0;
+    color: #1A1A1A;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.featured-text {
+    color: #4A4A4A;
+    font-size: 1rem;
+    line-height: 1.7;
+    margin: 0;
+}
+
+/* Article Container */
 .article-container {
     max-width: 800px;
     margin: 3rem auto;
@@ -83,13 +139,13 @@ nav a:hover {
     text-transform: uppercase;
     letter-spacing: 1.5px;
     font-weight: 600;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-family:'bodini + moda', sans-serif;
     margin-bottom: 1rem;
     display: block;
 }
 
 h1 {
-    font-family: 'Playfair Display', Georgia, serif;
+    font-family: 'bodini + moda', sans-serif;
     font-size: 2.5rem;
     line-height: 1.2;
     margin-bottom: 1rem;
@@ -109,25 +165,7 @@ h1 {
     color: #F5DD27;
     font-size: 1.2rem;
     margin-bottom: 1.5rem;
-}
 
-/* Featured Image */
-.featured-image {
-    width: 100%;
-    height: 400px;
-    background-color: #D4C5B9;
-    margin-bottom: 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #6B6B6B;
-    font-style: italic;
-}
-
-.featured-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
 }
 
 /* Article Content */
@@ -143,7 +181,7 @@ h1 {
 }
 
 .article-content h2 {
-    font-family: 'Playfair Display', Georgia, serif;
+    font-family:'bodini + moda', sans-serif;
     font-size: 1.8rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
@@ -173,33 +211,7 @@ h1 {
     border-bottom: 1px solid #031044;
 }
 
-/* Image with Caption */
-.content-image {
-    margin: 2rem 0;
-}
-
-.content-image img {
-    width: 100%;
-    height: auto;
-    border: 1px solid #031044;
-}
-
-.image-caption {
-    font-size: 0.85rem;
-    color: #051B70;
-    font-style: italic;
-    margin-top: 0.5rem;
-    text-align: center;
-}
-
-/* Floating Image */
-.float-right {
-    float: right;
-    width: 300px;
-    margin: 0 0 1rem 1.5rem;
-}
-
-/* Related Articles */
+/* Related Articles & Review Cards */
 .related-articles {
     max-width: 800px;
     margin: 3rem auto;
@@ -207,7 +219,7 @@ h1 {
 }
 
 .related-articles h2 {
-    font-family: 'Playfair Display', Georgia, serif;
+    font-family:'bodini + moda', sans-serif;
     font-size: 1.8rem;
     margin-bottom: 1.5rem;
     border-bottom: 2px solid #031044;
@@ -218,9 +230,10 @@ h1 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1.5rem;
+    margin-bottom: 2rem;
 }
 
-.related-card {
+.related-card, .review-card {
     background-color: #FFFFFF;
     border: 1px solid #031044;
     padding: 1.5rem;
@@ -229,20 +242,23 @@ h1 {
     transition: transform 0.3s;
 }
 
-.related-card:hover {
+.related-card:hover, .review-card:hover {
     transform: translateY(-5px);
 }
 
-.related-card h3 {
-    font-family: 'Playfair Display', Georgia, serif;
+.related-card h3, .card-title {
+    font-family:'bodini + moda', sans-serif;
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
+    color: #1A1A1A;
 }
 
-.related-card p {
+.related-card p, .card-text {
     font-size: 0.9rem;
     color: #4A4A4A;
+    margin: 0;
 }
+
 /* Footer */
 footer {
     background-color: #1A1A1A;
@@ -267,4 +283,29 @@ footer a:hover {
     justify-content: center;
     gap: 2rem;
     flex-wrap: wrap;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .article-content {
+        padding: 1.5rem;
+    }
+
+    nav ul {
+        gap: 1rem;
+    }
+
+    .float-right {
+        float: none;
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    .featured-image {
+        height: 250px;
+    }
 }

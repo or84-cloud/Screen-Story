@@ -53,213 +53,88 @@
         </div>
     </nav>
 <body>
+<!--Carousel from Bootstrap-->
+<div id="carouselExampleDark" class="carousel carousel-dark slide">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+            <img src="/Images/diverse-women-cooking-kitchen%20copy.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+            </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+            <img src="/Images/lady-pijamas-eye-cover-forehead-typing-laptop-watching-tv-late-night-freelancer-working-sitting-sofa-reading-writing-searching-browsing-notebook-using-internet-technology%20copy.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="/Images/front-view-man-working-darkroom%20copy.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
 <!-- Main Content -->
-<main style="max-width: 1200px; margin: 0 auto; padding: 0 5%;">
+<main class="main-wrapper">
     <!-- Featured Article -->
-    <article class="article-container" style="background-color: #FFFFFF; border: 1px solid #031044; padding: 2rem; margin-bottom: 2rem;">
+    <article class="featured-article">
         <span class="category">Featured Review</span>
-        <h2 style="font-family: 'Playfair Display', Georgia, serif; font-size: 2rem; margin: 0.5rem 0 1rem 0; color: #1A1A1A; font-weight: 700; line-height: 1.2;">
+        <h2 class="featured-title">
             The Weight of Water: 'Past Lives' and the Mathematics of Lost Futures
         </h2>
-        <p style="color: #4A4A4A; font-size: 1rem; line-height: 1.7; margin: 0;">
+        <p class="featured-text">
             There's a Korean concept called "in-yun," which Celine Song's exquisite debut feature translates as the providence that binds two people together. But "Past Lives" is less concerned with destiny than it is with the calculus of choice—the quantum mechanics of how our lives split into parallel possibilities with every decision we make or fail to make.
         </p>
     </article>
-
     <!-- Three Column Layout -->
-    <div class="related-grid" style="margin-bottom: 2rem;">
-        <article style="background-color: #FFFFFF; border: 1px solid #031044; padding: 1.5rem;">
+    <div class="related-grid">
+        <article class="review-card">
             <span class="category">Science Fiction</span>
-            <h3 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.3rem; margin: 0.5rem 0; color: #1A1A1A;">
-                Dune: Part Two
-            </h3>
+            <h3 class="card-title">Dune: Part Two</h3>
             <div class="rating">★★★★½</div>
-            <p style="color: #4A4A4A; font-size: 0.95rem; line-height: 1.6; margin: 0;">
+            <p class="card-text">
                 A thoughtful examination that balances spectacle with substance, proving that modern cinema can still surprise us with its depth and vision.
             </p>
         </article>
 
-        <article style="background-color: #FFFFFF; border: 1px solid #031044; padding: 1.5rem;">
+        <article class="review-card">
             <span class="category">Television</span>
-            <h3 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.3rem; margin: 0.5rem 0; color: #1A1A1A;">
-                The Bear (Season 3)
-            </h3>
+            <h3 class="card-title">The Bear (Season 3)</h3>
             <div class="rating">★★★★</div>
-            <p style="color: #4A4A4A; font-size: 0.95rem; line-height: 1.6; margin: 0;">
+            <p class="card-text">
                 A thoughtful examination that balances spectacle with substance, proving that modern cinema can still surprise us with its depth and vision.
             </p>
         </article>
 
-        <article style="background-color: #FFFFFF; border: 1px solid #031044; padding: 1.5rem;">
+        <article class="review-card">
             <span class="category">Drama</span>
-            <h3 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.3rem; margin: 0.5rem 0; color: #1A1A1A;">
-                Past Lives
-            </h3>
+            <h3 class="card-title">Past Lives</h3>
             <div class="rating">★★★★★</div>
-            <p style="color: #4A4A4A; font-size: 0.95rem; line-height: 1.6; margin: 0;">
+            <p class="card-text">
                 A thoughtful examination that balances spectacle with substance, proving that modern cinema can still surprise us with its depth and vision.
             </p>
         </article>
     </div>
-
-    <!-- Color Palette Reference -->
-    <section style="background-color: #FFFFFF; border: 1px solid #031044; padding: 2rem; margin-top: 3rem;">
-        <h3 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.5rem; margin-top: 0; color: #1A1A1A;">
-            Light Mode Color Palette Reference
-        </h3>
-        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 1rem;">
-            <div style="text-align: center;">
-                <div style="background-color: #FDFBF7; height: 80px; border: 1px solid #031044; margin-bottom: 0.5rem;"></div>
-                <div style="font-size: 0.75rem; color: #4A4A4A; font-family: monospace;">Background</div>
-                <div style="font-size: 0.7rem; color: #6B6B6B; font-family: monospace;">#FDFBF7</div>
-            </div>
-
-            <div style="text-align: center;">
-                <div style="background-color: #1A1A1A; height: 80px; border: 1px solid #031044; margin-bottom: 0.5rem;"></div>
-                <div style="font-size: 0.75rem; color: #4A4A4A; font-family: monospace;">Primary Text</div>
-                <div style="font-size: 0.7rem; color: #6B6B6B; font-family: monospace;">#1A1A1A</div>
-            </div>
-
-            <div style="text-align: center;">
-                <div style="background-color: #4A4A4A; height: 80px; border: 1px solid #031044; margin-bottom: 0.5rem;"></div>
-                <div style="font-size: 0.75rem; color: #4A4A4A; font-family: monospace;">Secondary Text</div>
-                <div style="font-size: 0.7rem; color: #6B6B6B; font-family: monospace;">#4A4A4A</div>
-            </div>
-
-            <div style="text-align: center;">
-                <div style="background-color: #07259C; height: 80px; border: 1px solid #031044; margin-bottom: 0.5rem;"></div>
-                <div style="font-size: 0.75rem; color: #4A4A4A; font-family: monospace;">Category Blue</div>
-                <div style="font-size: 0.7rem; color: #6B6B6B; font-family: monospace;">#07259C</div>
-            </div>
-
-            <div style="text-align: center;">
-                <div style="background-color: #051B70; height: 80px; border: 1px solid #031044; margin-bottom: 0.5rem;"></div>
-                <div style="font-size: 0.75rem; color: #4A4A4A; font-family: monospace;">Quote Blue</div>
-                <div style="font-size: 0.7rem; color: #6B6B6B; font-family: monospace;">#051B70</div>
-            </div>
-
-            <div style="text-align: center;">
-                <div style="background-color: #031044; height: 80px; border: 1px solid #031044; margin-bottom: 0.5rem;"></div>
-                <div style="font-size: 0.75rem; color: #4A4A4A; font-family: monospace;">Border Navy</div>
-                <div style="font-size: 0.7rem; color: #6B6B6B; font-family: monospace;">#031044</div>
-            </div>
-
-            <div style="text-align: center;">
-                <div style="background-color: #F5DD27; height: 80px; border: 1px solid #031044; margin-bottom: 0.5rem;"></div>
-                <div style="font-size: 0.75rem; color: #4A4A4A; font-family: monospace;">Rating Gold</div>
-                <div style="font-size: 0.7rem; color: #6B6B6B; font-family: monospace;">#F5DD27</div>
-            </div>
-
-            <div style="text-align: center;">
-                <div style="background-color: #FFFFFF; height: 80px; border: 1px solid #031044; margin-bottom: 0.5rem;"></div>
-                <div style="font-size: 0.75rem; color: #4A4A4A; font-family: monospace;">Card Background</div>
-                <div style="font-size: 0.7rem; color: #6B6B6B; font-family: monospace;">#FFFFFF</div>
-            </div>
-
-            <div style="text-align: center;">
-                <div style="background-color: #6B6B6B; height: 80px; border: 1px solid #031044; margin-bottom: 0.5rem;"></div>
-                <div style="font-size: 0.75rem; color: #4A4A4A; font-family: monospace;">Muted Text</div>
-                <div style="font-size: 0.7rem; color: #6B6B6B; font-family: monospace;">#6B6B6B</div>
-            </div>
-
-            <div style="text-align: center;">
-                <div style="background-color: #6381F8; height: 80px; border: 1px solid #031044; margin-bottom: 0.5rem;"></div>
-                <div style="font-size: 0.75rem; color: #4A4A4A; font-family: monospace;">Link Blue</div>
-                <div style="font-size: 0.7rem; color: #6B6B6B; font-family: monospace;">#6381F8</div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Dark Mode Color Palette Reference -->
-    <section style="background-color: #FFFFFF; border: 1px solid #031044; padding: 2rem; margin-top: 2rem;">
-        <h3 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.5rem; margin-top: 0; color: #1A1A1A;">
-            Dark Mode Color Palette Reference
-        </h3>
-        <p style="color: #4A4A4A; margin-bottom: 1.5rem;">
-            Use these colors when implementing dark mode in your CSS with media queries or a toggle switch:
-        </p>
-        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 1rem;">
-            <div style="text-align: center;">
-                <div style="background-color: #1C1C1E; height: 80px; border: 1px solid #031044; margin-bottom: 0.5rem;"></div>
-                <div style="font-size: 0.75rem; color: #4A4A4A; font-family: monospace;">Background</div>
-                <div style="font-size: 0.7rem; color: #6B6B6B; font-family: monospace;">#1C1C1E</div>
-            </div>
-
-            <div style="text-align: center;">
-                <div style="background-color: #E8E6E3; height: 80px; border: 1px solid #031044; margin-bottom: 0.5rem;"></div>
-                <div style="font-size: 0.75rem; color: #4A4A4A; font-family: monospace;">Primary Text</div>
-                <div style="font-size: 0.7rem; color: #6B6B6B; font-family: monospace;">#E8E6E3</div>
-            </div>
-
-            <div style="text-align: center;">
-                <div style="background-color: #B8B8B8; height: 80px; border: 1px solid #031044; margin-bottom: 0.5rem;"></div>
-                <div style="font-size: 0.75rem; color: #4A4A4A; font-family: monospace;">Secondary Text</div>
-                <div style="font-size: 0.7rem; color: #6B6B6B; font-family: monospace;">#B8B8B8</div>
-            </div>
-
-            <div style="text-align: center;">
-                <div style="background-color: #6381F8; height: 80px; border: 1px solid #031044; margin-bottom: 0.5rem;"></div>
-                <div style="font-size: 0.75rem; color: #4A4A4A; font-family: monospace;">Accent Blue</div>
-                <div style="font-size: 0.7rem; color: #6B6B6B; font-family: monospace;">#6381F8</div>
-            </div>
-
-            <div style="text-align: center;">
-                <div style="background-color: #3A3A3C; height: 80px; border: 1px solid #031044; margin-bottom: 0.5rem;"></div>
-                <div style="font-size: 0.75rem; color: #4A4A4A; font-family: monospace;">Border</div>
-                <div style="font-size: 0.7rem; color: #6B6B6B; font-family: monospace;">#3A3A3C</div>
-            </div>
-
-            <div style="text-align: center;">
-                <div style="background-color: #2C2C2E; height: 80px; border: 1px solid #031044; margin-bottom: 0.5rem;"></div>
-                <div style="font-size: 0.75rem; color: #4A4A4A; font-family: monospace;">Card Background</div>
-                <div style="font-size: 0.7rem; color: #6B6B6B; font-family: monospace;">#2C2C2E</div>
-            </div>
-
-            <div style="text-align: center;">
-                <div style="background-color: #F5DD27; height: 80px; border: 1px solid #031044; margin-bottom: 0.5rem;"></div>
-                <div style="font-size: 0.75rem; color: #4A4A4A; font-family: monospace;">Rating Gold</div>
-                <div style="font-size: 0.7rem; color: #6B6B6B; font-family: monospace;">#F5DD27</div>
-            </div>
-
-            <div style="text-align: center;">
-                <div style="background-color: #8E8E93; height: 80px; border: 1px solid #031044; margin-bottom: 0.5rem;"></div>
-                <div style="font-size: 0.75rem; color: #4A4A4A; font-family: monospace;">Muted Text</div>
-                <div style="font-size: 0.7rem; color: #6B6B6B; font-family: monospace;">#8E8E93</div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Typography Guide -->
-    <section style="background-color: #FFFFFF; border: 1px solid #031044; padding: 2rem; margin-top: 2rem;">
-        <h3 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.5rem; margin-top: 0; color: #1A1A1A;">
-            Typography Recommendations
-        </h3>
-        <div style="color: #4A4A4A; line-height: 1.8;">
-            <p style="margin: 0 0 1rem 0;">
-                <strong style="color: #1A1A1A;">Headlines:</strong> Playfair Display (serif) - 2rem to 3rem
-            </p>
-            <p style="margin: 0 0 1rem 0;">
-                <strong style="color: #1A1A1A;">Body Text:</strong> Georgia (serif) - 1rem (16px minimum)
-            </p>
-            <p style="margin: 0 0 1rem 0;">
-                <strong style="color: #1A1A1A;">Quote Text:</strong> Italiana (serif) - 1.3rem for pull quotes
-            </p>
-            <p style="margin: 0 0 1rem 0;">
-                <strong style="color: #1A1A1A;">Brand Title:</strong> Bodoni Moda (serif) - for site title
-            </p>
-            <p style="margin: 0 0 1rem 0;">
-                <strong style="color: #1A1A1A;">Line Height:</strong> 1.6 to 1.8 for optimal readability
-            </p>
-            <p style="margin: 0 0 1rem 0;">
-                <strong style="color: #1A1A1A;">Max Width:</strong> 800px for article content
-            </p>
-            <p style="margin: 0;">
-                <strong style="color: #1A1A1A;">Categories/Labels:</strong> Sans-serif (system fonts) - uppercase, letter-spacing
-            </p>
-        </div>
-    </section>
 </main>
-
 <! Footer -->
 <footer>
     <p>&copy; 2024 Screen & Story. All rights reserved.</p>
