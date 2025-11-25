@@ -16,7 +16,7 @@ body {
 }
 /*Carousel*/
 .carousel{
-    height: 50%;
+    height: 70%;
     width: 100%;
     display: flex;
     border-bottom: #1A1A1A 2px solid;
@@ -36,6 +36,11 @@ body {
     font-family: 'Bodoni Moda', cursive;
     font-size: 24px;
 }
+/*Navbar contents*/
+.nav-link{
+    font-family: 'Bodoni Moda', sans-serif;
+}
+
 
 /* Header Styles */
 header {
