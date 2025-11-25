@@ -16,6 +16,15 @@ body {
     font-size: 24px;
 }
 
+/* Navbar */
+.navbar-brand {
+    font-family: 'Bodoni Moda', cursive;
+    font-size: 24px;
+}
+/*Navbar contents*/
+.nav-link{
+    font-family: 'Bodoni Moda', sans-serif;
+}
 
 /* Header Styles */
 header {
