@@ -63,6 +63,9 @@ body {
 /*Navbar contents*/
 .nav-link{
     font-family: 'Bodoni Moda', sans-serif;
+    color: black;
+    font-size: 50px;
+
 }
 
 
