@@ -1,6 +1,6 @@
 /*Developer: Olivia Reyes | IS117-005, Fall 2025*/
 
-
+/*Homepage CSS*/
 /*@all*/
 *{
     margin: 0;
@@ -295,6 +295,423 @@ h1 {
     margin: 0;
 }
 
+/*main1 CSS (article pages)*/
+body {
+    font-family: Georgia, sans-serif;
+    background-color: #FDFBF7;
+    color: #1A1A1A;
+    line-height: 1.7;
+}
+
+.navbar-brand{
+    font-family: 'Bodoni Moda', cursive;
+    font-size: 24px;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-family: 'Bodoni Moda', cursive;
+    font-size: 24px;
+}
+/*Navbar contents*/
+.nav-link{
+    font-family: 'Bodoni Moda', sans-serif;
+}
+
+/* Header Styles */
+header {
+    border-bottom: 3px solid #1A1A1A;
+    padding: 2rem 5%;
+    background-color: #FFFFFF;
+}
+
+.site-title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    letter-spacing: -0.5px;
+}
+
+.site-tagline {
+    font-size: 0.10rem;
+    color: #4A4A4A;
+    font-style: italic;
+}
+
+/* Navigation */
+nav {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #D4C5B9;
+    padding: 1rem 5%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: #1A1A1A;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #8B4513;
+}
+
+/* Article Container */
+.article-container {
+    max-width: 800px;
+    margin: 3rem auto;
+    padding: 0 5%;
+}
+
+/* Article Header */
+.article-header {
+    margin-bottom: 2rem;
+}
+
+.category {
+    color: #07259C;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+h1 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.article-meta {
+    color: #6B6B6B;
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.rating {
+    color: #F5DD27;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Featured Image */
+.featured-image {
+    width: 100%;
+    height: 400px;
+    background-color: #D4C5B9;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6B6B6B;
+    font-style: italic;
+}
+
+.featured-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Article Content */
+.article-content {
+    background-color: #FFFFFF;
+    padding: 2.5rem;
+    border: 1px solid #031044;
+}
+
+.article-content p {
+    margin-bottom: 1.5rem;
+    font-size: 1.05rem;
+}
+
+.article-content h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.article-content blockquote {
+    border-left: 3px solid #051B70;
+    font-size: 1.3rem;
+    font-family: 'italiana', sans-serif;
+    padding-left: 1.5rem;
+    margin: 2rem 0;
+    color: #4A4A4A;
+    font-style: italic;
+}
+
+/* Pull Quote */
+.pull-quote {
+    font-size: 1.3rem;
+    font-style: italic;
+    font-family: 'italiana', sans-serif;
+    color: #051B70;
+    text-align: center;
+    margin: 2.5rem 0;
+    padding: 1.5rem;
+    border-top: 1px solid #031044;
+    border-bottom: 1px solid #031044;
+}
+
+/* Image with Caption */
+.content-image {
+    margin: 2rem 0;
+}
+
+.content-image img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #D4C5B9;
+}
+
+.image-caption {
+    font-size: 0.85rem;
+    color: #051B70;
+    font-style: italic;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+/* Floating Image */
+.float-right {
+    float: right;
+    width: 300px;
+    margin: 0 0 1rem 1.5rem;
+}
+
+/* Related Articles */
+.related-articles {
+    max-width: 800px;
+    margin: 3rem auto;
+    padding: 0 5%;
+}
+
+.related-articles h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid #031044;
+    padding-bottom: 0.5rem;
+}
+
+.related-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.related-card {
+    background-color: #FFFFFF;
+    border: 1px solid #031044;
+    padding: 1.5rem;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s;
+}
+
+.related-card:hover {
+    transform: translateY(-5px);
+}
+
+.related-card h3 {
+    font-family: 'Playfair Display', Georgia, sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.related-card p {
+    font-size: 0.9rem;
+    color: #4A4A4A;
+}
+
+/*main2 CSS (contact us page)*/
+
+.contact-info{
+    justify-content: left;
+}
+
+/* Contact Container */
+.contact-container {
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 0 5%;
+}
+
+/* Page Header */
+.page-header {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.page-header h1 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.page-header p {
+    font-size: 1.1rem;
+    color: #4A4A4A;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Two Column Layout */
+.contact-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    margin-bottom: 3rem;
+}
+
+/* Contact Info Section */
+.contact-info {
+    background-color: #FFFFFF;
+    border: 1px solid #D4C5B9;
+    padding: 2rem;
+}
+
+.contact-info h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #8B4513;
+}
+
+.info-item {
+    margin-bottom: 2rem;
+}
+
+.info-item h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.info-item p {
+    color: #4A4A4A;
+    font-size: 0.95rem;
+}
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.social-links a {
+    color: #6381F8;
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #000;
+    transition: background-color 0.3s;
+}
+
+.social-links a:hover {
+    background-color: #FDFBF7;
+}
+
+/* Contact Form */
+.contact-form-section {
+    background-color: #FFFFFF;
+    border: 1px solid #D4C5B9;
+    padding: 2rem;
+}
+
+.contact-form-section h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #8B4513;
+}
+
+/* Form Styles */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+input[type="text"], input[type="email"], select, textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #D4C5B9;
+    background-color: #FDFBF7;
+    font-family: Georgia, serif;
+    font-size: 0.95rem;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #8B4513;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+select {
+    cursor: pointer;
+}
+
+/* Submit Button */
+.submit-btn {
+    background-color: #8B4513;
+    color: #FFFFFF;
+    padding: 0.875rem 2rem;
+    border: none;
+    font-family: Georgia, serif;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+.submit-btn:hover {
+    background-color: #6B3410;
+}
+
+/* Response Time Notice */
+.response-notice {
+    background-color: #FFF8E1;
+    border-left: 3px solid #8B4513;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-size: 0.85rem;
+    color: #4A4A4A;
+}
 /* Footer */
 footer {
     background-color: #1A1A1A;
