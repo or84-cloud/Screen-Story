@@ -25,6 +25,10 @@ header {
     background-color: #FFFFFF;
 }
 
+.page-header{
+    font-size: 32px;
+}
+
 .site-title {
     font-family: 'Playfair Display', Georgia, serif;
     font-size: 2.5rem;
@@ -63,6 +67,10 @@ nav a {
 
 nav a:hover {
     color: #8B4513;
+}
+
+.contact-info{
+    justify-content: left;
 }
 
 /* Contact Container */
@@ -136,11 +144,11 @@ nav a:hover {
 }
 
 .social-links a {
-    color: #8B4513;
+    color: #6381F8;
     text-decoration: none;
     font-size: 0.9rem;
     padding: 0.5rem 1rem;
-    border: 1px solid #D4C5B9;
+    border: 1px solid #000;
     transition: background-color 0.3s;
 }
 
@@ -174,10 +182,7 @@ label {
     font-size: 0.9rem;
 }
 
-input[type="text"],
-input[type="email"],
-select,
-textarea {
+input[type="text"], input[type="email"], select, textarea {
     width: 100%;
     padding: 0.75rem;
     border: 1px solid #D4C5B9;
@@ -241,7 +246,7 @@ footer {
 }
 
 footer a {
-    color: #D4A574;
+    color: #6381F8;
     text-decoration: none;
 }
 
